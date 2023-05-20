@@ -9,14 +9,14 @@ namespace BTE202_LAB12
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //Form2 frm_sayac = new Form2();
-            //frm_sayac.ShowDialog();
+            FrmSayac frm_sayac = new FrmSayac();
+            frm_sayac.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //Form3 frm_zar = new Form3();
-            //frm_zar.ShowDialog();
+            FrmZar frm_zar = new FrmZar();
+            frm_zar.ShowDialog();
         }
     }
 }
