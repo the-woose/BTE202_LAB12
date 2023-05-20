@@ -62,6 +62,7 @@
             button2.TabIndex = 1;
             button2.Text = "&Çıkış";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // buttonSay
             // 
@@ -133,7 +134,7 @@
             Controls.Add(groupBox1);
             Controls.Add(textBox1);
             Name = "FrmSayac";
-            Text = "FrmSayac";
+            Text = "Yavuz Sava - 2210780022";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ResumeLayout(false);

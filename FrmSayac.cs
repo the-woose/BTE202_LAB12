@@ -23,11 +23,11 @@ namespace BTE202_LAB12
             textBox1.Text = string.Empty;
             if (radioButton1.Checked)
             {
-                for (int i = 1; i <= 20; i++){textBox1.Text += i+"\r\n";}
+                for (int i = 1; i <= 20; i++) { textBox1.Text += i + "\r\n"; }
             }
             else if (radioButton2.Checked)
             {
-                for (int i = 2; i <= 20; i+=2) { textBox1.Text += i + "\r\n"; }
+                for (int i = 2; i <= 20; i += 2) { textBox1.Text += i + "\r\n"; }
             }
             else if (radioButton5.Checked)
             {
@@ -41,6 +41,11 @@ namespace BTE202_LAB12
             {
                 textBox1.Text = "Hata!";
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
